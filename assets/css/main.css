@@ -213,7 +213,8 @@ nav
     background-color: var(--bluebgcolor);
     color: var(--color2);
 }
-.main-container ul li, ol li
+.main-container ul li, 
+.main-container ol li
 {
   list-style-position: inside;
   margin-bottom: 15px;
@@ -288,7 +289,7 @@ blockquote > :last-child { margin-bottom: 0; }
 {
     font-family: var(--specialfont);
     text-align: justify;
-    max-width: 90%;
+    max-width: 100%;
     margin: 2rem auto;
     padding: 1.25rem;
     background: linear-gradient(to right, var(--color1),var(--color2) 50%, white 50%);
