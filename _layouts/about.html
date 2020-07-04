@@ -1,0 +1,102 @@
+{% include header.html %}
+<link rel="stylesheet" href="/assets/css/about.css" >  
+
+<body>
+    {% include navbar.html %}
+    
+    <div class = "main-container">   
+        <div class="header">
+            {{page.title}}
+        </div>
+        
+        <div class="subtitle fade-in">
+            <img class = "profile_pic" src="/assets/img/current_dp.jpeg" alt = "Profile">
+            <b>Dhilip Sanjay</b>
+            AKA DS
+        </div>
+        <p>            
+            {{content}}
+            
+        </p>
+
+        <h3>Education</h3>
+        <div class="box fade-in">
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <span class="time">2016</span>
+                    <h3 class="event">SSLC</h3>
+                    <p class="description">Lisieux Matriculation Higher Secondary School, Coimbatore</p>
+                    <p class="description">Percentage - 99%</p>
+                </li>
+                <li class="timeline-item">
+                    <span class="time">2018</span>
+                    <h3 class="event">HSC</h3>
+                    <p class="description">Lisieux Matriculation Higher Secondary School, Coimbatore</p>
+                    <p class="description">Percentage - 97.83%</p>
+                </li>
+                <li class="timeline-item">
+                    <span class="time">2018 - 2022 (Expected)</span>
+                    <h3 class="event">BE CSE</h3>
+                    <p class="description">PSG College of Technology, Coimbatore</p>
+                    <p class="description">CGPA - 9.52 (currently)</p>
+                </li>
+            </ul>
+        </div>
+        
+        <h3>Skills</h3>
+        <div class="box">
+            <ul class="skill">
+                <li class="skill-name">C/C++
+                    <div class="skill-bar skill1"></div>
+                </li>
+                <li class="skill-name">HTML
+                    <div class="skill-bar skill2"></div>
+                </li>
+                <li class="skill-name">CSS
+                    <div class="skill-bar skill3"></div>
+                </li>
+                <li class="skill-name">Javascript
+                    <div class="skill-bar skill4"></div>
+                </li>
+                <li class="skill-name">PHP
+                    <div class="skill-bar skill5"></div>
+                </li>
+                <li class="skill-name">Web security
+                    <div class="skill-bar skill6"></div>
+                </li>
+            </ul>
+        </div>
+        
+        <h3>Achievements</h3> 
+        <div class="box fade-in">
+            <ul class="achievements">
+                <li class="achievement-name">School Second in SSLC</li> 
+                <li class="achievement-name">School Fourth in HSC </li>
+            </ul>
+        </div>
+        
+        <!-- <h3>Experience</h3>
+        <div class="box fade-in">
+            <ul class="experience">
+                <li class="experience-name">GRD Memorial Library Internship        
+                    <p class="description">December 2019 - March 2020</p>  
+                </li>    
+            </ul>
+        </div> -->
+        
+        <h3>Interests</h3>
+        <p>These are some of my interests and hobbies. You can check them out here:</p>
+        <div class="box fade-in">
+            <ul class="categories">
+                <li class="category-name"><a href="/quotes/">Quotes</a></li>
+                <li class="category-name"><a href="/movies/">Movies</a></li>
+                <li class="category-name"><a href="/series/">Series</a></li>
+                <li class="category-name"><a href="/books/">Books</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    {% include footer.html%}
+<script src="/assets/js/about.js"></script>
+</body>
+</html>

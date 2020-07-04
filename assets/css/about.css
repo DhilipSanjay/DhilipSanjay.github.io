@@ -1,0 +1,247 @@
+@import "main.css";
+:root
+{
+    /* These variables will be automatically updated with javascript
+    Check about.js file to update the skill percentage */
+    --skill1: 0%;
+    --skill2: 0%;
+    --skill3: 0%;
+    --skill4: 0%;
+    --skill5: 0%;
+    --skill6: 0%;
+}
+
+.profile_pic
+{
+    display: block;
+    margin: 5px auto;
+    width: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.box
+{
+    margin: 5px auto;
+}
+/* Timeline */
+
+.timeline
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item
+{
+    position: relative;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-bottom: 2px solid var(--color1);
+    border-left: 5px solid var(--color1);
+    transition: all 1s ease-in-out;
+}
+
+.time
+{
+    font-weight: bold;
+    padding: 4px 12px;
+    background: var(--maincolor);
+    border-radius: 15px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.event
+{
+    margin: 10px 0 0;
+    padding: 0 12px;
+    color: var(--color2);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.description
+{
+    margin: 10px 0 0;
+    padding: 0 12px;
+    font-size: 0.8rem;
+    color: var(--greycolor);
+    transition: all 0.2s ease-in-out;
+}
+
+    .timeline-item:hover
+    {
+    background: var(--maincolor);
+    }
+    .timeline-item:hover .time
+    {
+    background: white;
+    color: var(--color1);
+    }
+    .timeline-item:hover .event
+    {
+    color: white;
+    }
+    .timeline-item:hover .description
+    {
+    color: white;
+    }
+
+/* Timeline */
+
+
+/* skills */
+
+.skill{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.skill-name
+{
+    margin: 10px 0 0;
+    padding: 10px 0;
+
+}
+.skill-bar
+{
+    height: 25px;
+    margin: 10px 0px;
+    padding: 0 0 0 10px;
+    color: white;
+    position: relative;
+}
+
+.skill-bar::before
+{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 25px;
+    z-index: -2;
+    background: #d2d6d7;
+}
+
+.skill-bar::after
+{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 25px;
+    z-index: -1;
+    background: var(--maincolor);
+    transition: 0.8s;
+}
+
+.skill-bar.flow-in::after
+{
+    animation: flowIn 1 5s;
+}
+
+.skill1::after
+{
+    max-width: var(--skill1);
+}
+
+.skill2::after
+{
+    max-width: var(--skill2)
+}
+
+.skill3::after
+{
+    max-width: var(--skill3)
+}
+
+.skill4::after
+{
+    max-width: var(--skill4)
+}
+
+.skill5::after
+{
+    max-width: var(--skill5)
+}
+
+.skill6::after
+{
+    max-width: var(--skill6)
+}
+
+/* skills */
+
+/* Achievements */
+.achievements
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.achievement-name
+{
+    margin: 10px 0 0;
+    padding: 0 12px;
+}
+
+/* Achievements */
+
+/* Experience */
+.experience
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.experience-name
+{
+    margin: 10px 0 0;
+    padding: 0 12px;
+}
+
+/*  Experience */
+
+/* Categories */
+.categories
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+}
+.category-name
+{
+    margin: 10px 0 0;
+    padding: 0 12px;
+}
+/* Categories */
+@keyframes blink
+{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes flowIn
+{
+    0%{
+        scale: 0;
+        width: 0;
+    }
+    100%{
+        scale: 1;
+        width: 100%;
+    }
+}
