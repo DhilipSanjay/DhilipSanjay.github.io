@@ -9,15 +9,28 @@
     --skill4: 0%;
     --skill5: 0%;
     --skill6: 0%;
+    --skill-bar-height: 12px;
 }
 
 .profile_pic
 {
-    display: block;
-    margin: 5px auto;
+    margin-bottom: 15px;
     width: 300px;
     object-fit: cover;
-    padding: 10px;
+}
+
+.subtitle
+{
+    display: grid;
+    grid-template-rows: 320px 1fr 1fr;
+    font-size: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.ss_name
+{
+    letter-spacing: 2px;
 }
 
 .box
@@ -101,15 +114,13 @@
 }
 .skill-name
 {
-    margin: 10px 0 0;
-    padding: 10px 0;
+    margin-bottom: 15px;
 
 }
 .skill-bar
 {
-    height: 25px;
-    margin: 10px 0px;
-    padding: 0 0 0 10px;
+    height: var(--skill-bar-height);
+    margin-top: 10px;
     color: white;
     position: relative;
 }
@@ -121,7 +132,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 25px;
+    height: var(--skill-bar-height);
     z-index: -2;
     background: #d2d6d7;
 }
@@ -133,7 +144,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 25px;
+    height: var(--skill-bar-height);
     z-index: -1;
     background: var(--maincolor);
     transition: 0.8s;
@@ -202,8 +213,7 @@
 
 .experience-name
 {
-    margin: 10px 0 0;
-    padding: 0 12px;
+    margin-bottom: 15px;
 }
 
 /*  Experience */
@@ -211,14 +221,13 @@
 /* Categories */
 .categories
 {
-    list-style: none;
     margin: 0;
     padding: 0;    
 }
 .category-name
 {
-    margin: 10px 0 0;
-    padding: 0 12px;
+    list-style-type: lower-greek;
+    margin-bottom: 15px;
 }
 /* Categories */
 @keyframes blink

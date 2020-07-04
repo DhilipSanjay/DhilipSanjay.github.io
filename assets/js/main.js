@@ -50,7 +50,7 @@ const faders = document.querySelectorAll('.fade-in');
 const appearOptions = {
     root: null, // it is the viewport
     threshold: 0,
-    rootMargin: "0px 0px -200px 0px" //negative pulls the margin inside from the corner
+    rootMargin: "0px 0px -100px 0px" //negative pulls the margin inside from the corner
 };
 
 const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll ){

@@ -14,9 +14,9 @@ function skillPercentage()
 {
     for(i = 0; i< skillLength; i++)
     {   
-        const elementclass = ".skill" + (i+1);
-        const element = document.querySelector(elementclass);
-        element.innerHTML = skills[i] +"%";
+        // const elementclass = ".skill" + (i+1);
+        // const element = document.querySelector(elementclass);
+        // element.innerHTML = skills[i] +"%";
 
         const varname = "--skill" +  (i+1);
         document.documentElement.style.setProperty(varname, skills[i] +"%")
