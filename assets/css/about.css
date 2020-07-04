@@ -23,11 +23,15 @@
 {
     display: grid;
     grid-template-rows: 320px 1fr 1fr;
-    font-size: 40px;
+    font-size: 28px;
     justify-items: center;
     align-items: center;
 }
 
+.profile_name
+{
+    margin: 0;
+}
 .ss_name
 {
     letter-spacing: 2px;

@@ -31,10 +31,6 @@ img
   vertical-align: middle; 
   margin-bottom: 15px;
 }
-ul, ol
-{
-  list-style-type: inside;
-}
 
 html
 {
@@ -217,6 +213,11 @@ nav
     background-color: var(--bluebgcolor);
     color: var(--color2);
 }
+.main-container ul li, ol li
+{
+  list-style-position: inside;
+  margin-bottom: 15px;
+}
 .header
 {
     text-align: center;
@@ -372,7 +373,9 @@ blockquote > :last-child { margin-bottom: 0; }
     border-top: 1px solid rgba(214, 214, 214);
     border-bottom: 1px solid rgba(214, 214, 214);
 }
-
+.note p{
+  margin: 0;
+}
 .blue
 {
     background-color: var(--bluebgcolor);
