@@ -23,18 +23,19 @@
 {
     display: grid;
     grid-template-rows: 320px 1fr 1fr;
-    font-size: 28px;
     justify-items: center;
     align-items: center;
 }
 
 .profile_name
 {
+    font-size: 1.5em;
     margin: 0;
 }
 .ss_name
 {
     letter-spacing: 2px;
+    font-size: 1.5em;
 }
 
 .box
