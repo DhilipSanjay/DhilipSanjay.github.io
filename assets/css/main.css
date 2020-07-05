@@ -39,7 +39,7 @@ html
     height: 100%;
 }
 
-@media (min-width:960px) {
+@media (min-width:768px) {
 html {
     font-size: 20px;
 }
@@ -68,7 +68,7 @@ nav
     top: 3px;
     left: 0;
     min-width: 100vw;
-    min-height: 8vh;
+    min-height: 65px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -196,7 +196,7 @@ nav
     height: auto;
     margin: 10px auto;
     padding: 10px 10px;
-    margin-top: 8vh;
+    margin-top: 68px;
     text-align: justify;
     position: relative;
     border-bottom: 1.5px solid rgb(230, 230, 230);
