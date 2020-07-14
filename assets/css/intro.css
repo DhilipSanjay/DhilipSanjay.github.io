@@ -1,0 +1,113 @@
+.intro-wrap
+{
+    width: 100%;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px 5vw;
+    margin-top: 68px;
+    font-size: 1.25rem;
+}
+
+.blur
+{
+    font-size: 10vh;
+    font-weight: 700;
+    opacity: 0.3;
+    text-align: center;
+    color: var(--greycolor);
+    position: relative;
+}
+
+@media (max-width: 768px)
+{
+    .blur
+    {
+        font-size: 36px;
+    }
+}
+.profile-pic
+{
+    display: block;
+    width: 300px;
+    object-fit: cover;
+    padding: 10px;
+    z-index: 10;
+}
+
+.intro-start
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content
+{
+    padding: 20px;
+    width: 300px;
+}
+
+.typing
+{
+    font-weight: 200;
+}
+
+.typing::after
+{
+    content:"_";
+    animation: blink 0.75s infinite ease;
+}
+
+.btn
+{
+    padding: 10px;
+    font-size: 1rem;
+    border: black 2px solid;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: all 250ms ease-in-out;
+}
+
+.dark-btn
+{
+    background: black;
+    color: white;
+}
+
+.light-btn
+{
+    background: white;
+    color: black;
+}
+
+.light-btn:hover,
+.light-btn:focus
+{
+    background: black;
+    color: white;
+}
+
+.dark-btn:hover,
+.dark-btn:focus
+{
+    background: white;
+    color: black;
+}
+
+button:focus
+{
+    outline: none;
+}
+
+@keyframes blink
+{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

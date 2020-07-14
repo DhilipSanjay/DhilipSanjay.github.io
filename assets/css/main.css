@@ -12,6 +12,11 @@
 {
     box-sizing: border-box;
 }
+
+*:focus
+{
+  outline: none;
+}
 :root
 {
     --font:'Montserrat',sans-serif; /* This will be used for header and footer */
@@ -25,7 +30,7 @@
     --blue : rgb(0, 47, 148);
 }
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure { margin-bottom: 15px; }
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, button{ margin-bottom: 15px; }
 img 
 { max-width: 100%; 
   vertical-align: middle; 
@@ -35,15 +40,16 @@ img
 html
 {
     font-family: var(--font);/* Never get smaller than this */
-    font-size: 18px;
+    /* font-size: 20px; */
     height: 100%;
+    scroll-behavior: smooth;
 }
 
-@media (min-width:768px) {
+/* @media (max-width:768px) {
 html {
-    font-size: 20px;
+     font-size: 18px; 
 }
-}
+} */
 
 /* Never get larger than this */
 /*
@@ -97,7 +103,7 @@ nav
 
 .logo
 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .logo a
@@ -106,6 +112,12 @@ nav
     color: var(--color2);
 }
  
+.logo a:hover,
+.logo a:focus
+{
+    color: var(--color1);
+    border-bottom: 2px solid var(--color1);
+}
 .top-navigation-bar
 {
     display: flex;
@@ -116,7 +128,7 @@ nav
 
 .top-navigation-bar a
 {
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     display: inline-block; /* scaling doesnot work for inline element */
     color: var(--greycolor);
@@ -150,19 +162,18 @@ nav
     transition: transform ease-in-out 300ms;
 }
 
-@media screen and (min-width: 768px)
+.top-navigation-item a:hover::before,
+.top-navigation-item a:focus::before
 {
-    .top-navigation-item a:hover::before
-    {
-        transform: scale(1);
-        transform-origin: left;
-    }
-    .top-navigation-item a:hover
-    {
-        background: var(--maincolor);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+    transform: scale(1);
+    transform-origin: left;
+}
+.top-navigation-item a:hover,
+.top-navigation-item a:focus
+{
+    background: var(--maincolor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -191,11 +202,12 @@ nav
 
 .main-container
 {
+    font-size: 1.25rem;
     font-family: var(--mainfont);
     max-width: 750px;
     height: auto;
     margin: 10px auto;
-    padding: 10px 10px;
+    padding: 10px 30px;
     margin-top: 68px;
     text-align: justify;
     position: relative;
@@ -208,7 +220,8 @@ nav
     color: inherit;
 }
 
-.main-container a:hover
+.main-container a:hover,
+.main-container a:focus
 {
     background-color: var(--bluebgcolor);
     color: var(--color2);
@@ -266,13 +279,12 @@ nav
     -moz-transition: all 0.3s ease-in-out;
 }
 
-@media screen and (min-width: 768px)
+.social-media-icon:hover,
+.social-media-icon:focus
 {
-    .social-media-icon:hover
-    {
-        transform: scale(1.4);
-    }
+    transform: scale(1.4); 
 }
+
 
 /*social media*/
 
@@ -316,7 +328,7 @@ blockquote > :last-child { margin-bottom: 0; }
 
 .quote-text
 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-style: italic;
     line-height: 1.5;
     margin: 0;
@@ -393,7 +405,7 @@ blockquote > :last-child { margin-bottom: 0; }
         right: -180px;
         transform: translateY(-50%);
         width: 160px;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 @media screen and (min-width:1250px)
@@ -415,7 +427,7 @@ blockquote > :last-child { margin-bottom: 0; }
     height: 35px;
     padding: 1px;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 1.5rem;
     background: var(--maincolor);
     text-align: center;
     color: white;
@@ -450,7 +462,7 @@ blockquote > :last-child { margin-bottom: 0; }
 
 
 /* For mobile */
-@media screen and (max-width: 768px)
+@media screen and (max-width: 1024px)
 {
     /* navbar */
     .top-navigation-bar{
@@ -509,11 +521,7 @@ blockquote > :last-child { margin-bottom: 0; }
         transform: rotate(45deg) translate(-5px, -5px);
     }
     /* navbar */
-
-    .main-container
-    {
-        width: 95%;
-    }
+    
 } 
 
 

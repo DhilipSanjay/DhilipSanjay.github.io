@@ -1,4 +1,3 @@
-
 const navToggle = () =>
 {
     const navicon = document.querySelector('.nav-icon');
@@ -69,5 +68,4 @@ faders.forEach(fader =>
     {
         appearOnScroll.observe(fader);
     });
-
 
