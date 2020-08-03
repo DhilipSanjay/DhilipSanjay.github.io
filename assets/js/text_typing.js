@@ -11,11 +11,11 @@ let speed = 250;
     currentText = text[count];
     if(mode === 1){
         letter = currentText.slice(0, ++index);
-        speed = 200
+        speed = 200;
     }
     else{
         letter = currentText.slice(0, --index);
-        speed = 90
+        speed = 90;
     }
 
     document.querySelector('.typing').textContent = letter;
@@ -24,11 +24,12 @@ let speed = 250;
         count = (count+1) % text.length;
         index = 0;
         mode = 1;
+	speed = 700;
     }
     else if(letter.length === currentText.length)
     {
         mode = 0;
-        speed = 2000
+        speed = 2000;
     }
     setTimeout(text_typing, speed);
 }());
