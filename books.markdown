@@ -12,7 +12,6 @@ I usually don't read a lot of books, infact I haven't read any books during my s
 These are some the books which I'm currently reading, planning to read and have read:
 
 ### Currently Reading
-- Ghost in the Wires - Kevin Mitnick
 - The Web Application Hacker's Handbook: Discovering and Exploiting Security Flaws - Dafydd Stuttard and Marcus Pinto
 
 ### Planning to Read
@@ -35,3 +34,4 @@ These are some the books which I'm currently reading, planning to read and have 
 - How to win Friends and Influence People - Dale Carnegie
 - Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali
 - Web Hacking 101 - Peter Yaworski
+- Ghost in the Wires - Kevin Mitnick
