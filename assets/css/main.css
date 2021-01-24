@@ -290,10 +290,11 @@ nav
 
 /* Quotes */
 blockquote { 
-    color: var(--color2);
     border-left: 4px solid var(--color1); 
-    padding-left: 15px;  
-    letter-spacing: -0.5px;
+    border-bottom: 2px solid var(--color1);
+    padding-left: 15px;
+    padding-bottom: 5px; 
+    letter-spacing: 0.5px;
 }
 
 blockquote > :last-child { margin-bottom: 0; }
@@ -390,10 +391,14 @@ blockquote > :last-child { margin-bottom: 0; }
 .note p{
   margin: 0;
 }
+.note p a{
+  font-weight: 600;
+  text-transform: uppercase;
+}
 .blue
 {
     background-color: var(--bluebgcolor);
-    color: var(--blue); 
+    color: var(--blue);
 }
 
 
