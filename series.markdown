@@ -12,14 +12,13 @@ These are some series of my interests:
 - Rick and Morty
 - Sherlock
 - Silicon Valley
+- Mr. Robot
 
 ### Watchlist
-- Mr. Robot
 - How I Met Your Mother
 - The Big Bang Theory
 - Game of Thrones
 - Sharktank
 - Narcos
-- Dark
 - Money Heist
 - Suits
