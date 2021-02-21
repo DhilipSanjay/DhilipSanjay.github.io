@@ -223,18 +223,6 @@
 
 /*  Experience */
 
-/* Categories */
-.categories
-{
-    margin: 0;
-    padding: 0;    
-}
-.category-name
-{
-    list-style-type: lower-greek;
-    margin-bottom: 15px;
-}
-/* Categories */
 @keyframes blink
 {
     0%{

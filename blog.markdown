@@ -18,6 +18,22 @@ I got this inspiration from [Julia Evans](https://twitter.com/b0rk){:target="_bl
 <p class="quote-text quote-credit">Alexander Pope</p>
 </blockquote>
 
+Check out my articles and write-ups:
+<div class="box fade-in categories">
+  <a target="_blank" href="https://dhilipsanjay.gitbook.io/ctfs/">
+    <div class="category-box">
+        <img src="/assets/img/ctfs.png"  alt="ctfs-logo">
+        CTF Write-ups
+    </div>
+  </a>
+  <a target="_blank" href="https://dhilipsanjay.medium.com/">
+    <div class="category-box">
+        <img src="/assets/img/medium.png"  alt="medium-logo">
+        Medium
+    </div>
+  </a>
+</div>
+
 <!-- <div class="recent posts">
 {% for post in site.posts %}
   <li>

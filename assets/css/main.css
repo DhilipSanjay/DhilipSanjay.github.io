@@ -377,6 +377,52 @@ blockquote > :last-child { margin-bottom: 0; }
     }
 /* Quotes */
 
+/* Categories */
+.categories
+{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;  
+}
+.category-box
+{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform: translateZ(0);
+}
+
+.category-box img
+{
+    height: 60px;
+    align-self: center;
+}
+
+.category-box:hover
+{
+    box-shadow: 2px 3px 2px var(--greycolor);
+    border-color: var(--greycolor);
+    border-width: 0.2px;
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.categories a:hover,
+.categories a:focus
+{
+    background-color: white;
+    color: var(--color2);
+}
+/* Categories */
+
 /* Right floating box */
 .note
 {
