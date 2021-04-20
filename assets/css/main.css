@@ -202,7 +202,7 @@ nav
 
 .main-container
 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-family: var(--mainfont);
     max-width: 750px;
     height: auto;
@@ -409,10 +409,8 @@ blockquote > :last-child { margin-bottom: 0; }
 
 .category-box:hover
 {
-    box-shadow: 2px 3px 2px var(--greycolor);
+    box-shadow: 5px 5px 10px var(--greycolor);
     border-color: var(--greycolor);
-    border-width: 0.2px;
-    transform: scale3d(1.05, 1.05, 1.05);
 }
 
 .categories a:hover,
@@ -489,6 +487,11 @@ blockquote > :last-child { margin-bottom: 0; }
 
 @media screen and (min-width: 768px)
 {
+
+    .main-container
+    {
+        font-size: 1.25rem;
+    }
     #scrollUp:hover
     {
         transform: scale(1.2);

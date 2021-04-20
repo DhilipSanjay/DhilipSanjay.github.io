@@ -1,0 +1,124 @@
+@import "main.css";
+
+.project-wrapper{
+    margin-bottom: 20px;
+    padding-bottom: 30%;
+}
+
+.project-title{
+    text-align: center;
+    position: relative;
+    font-size: 1.75rem;
+    padding: 4px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.project-title::after{
+    content:"";
+    position: absolute;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 0.20rem;
+    background-color: var(--color2);
+}
+
+.tech-stack-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-stack{
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.project-image-wrapper{
+    border-radius: 15px;    
+    position: relative;
+    padding-bottom: 55%;
+    background-color: black;
+}
+
+.project-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.project-image:hover{
+   opacity: 0.7;
+}
+
+.project-container{
+    position: relative;
+    padding: 1.25rem;
+    margin: -2rem auto;
+    max-width: 85%;
+    border-radius: 10px;
+    box-shadow:0 0 20px var(--greycolor);
+    background-color: white;
+    height: 100%;
+    z-index: 10;
+}
+
+.project-details{
+    text-align: justify;
+}
+
+@media screen and (min-width: 500px) {
+    .project-container{
+        margin: -4rem auto;
+    }
+
+    .project-wrapper{
+        padding-bottom: 20%;
+    }
+}
+
+.project-links{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    justify-content: space-evenly;
+}
+
+.link-btn{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    border: black 2px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:2px 2px 5px var(--greycolor);
+    transition: all 250ms ease-in-out;
+}
+
+.link-btn:hover{
+    box-shadow:5px 5px 10px var(--greycolor);
+    background-color: none;
+}
+
+.link-btn-icon{
+    width: 2rem;
+    margin: 0;
+}
+
+.link-btn-text{
+    padding-left:10px
+}

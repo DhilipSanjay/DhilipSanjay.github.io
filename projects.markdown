@@ -1,16 +1,5 @@
 ---
-layout: default
+layout: projects
 title: Projects
 permalink: /projects/
 ---
-
-### Elucida
-
-
-### Journal Management System
-
-
-### Axel
-
-
-### Rustom
