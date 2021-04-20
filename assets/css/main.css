@@ -480,9 +480,10 @@ blockquote > :last-child { margin-bottom: 0; }
     background: var(--maincolor);
     text-align: center;
     color: white;
-    box-shadow: 0 0 20px 1px rgb(230, 230, 230);
+    box-shadow: 0 0 10px var(--greycolor);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    z-index: 20;
 }
 
 @media screen and (min-width: 768px)

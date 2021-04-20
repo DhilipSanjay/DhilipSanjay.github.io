@@ -2,7 +2,7 @@
 
 .project-wrapper{
     margin-bottom: 20px;
-    padding: 0 20px;
+    padding: 0;
     padding-bottom: 30%;
 }
 
@@ -88,6 +88,7 @@
     }
 
     .project-wrapper{
+        padding: 0 20px;
         padding-bottom: 20%;
     }
 }

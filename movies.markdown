@@ -21,11 +21,6 @@ These are some of my favourite, recently watched movies:
 - John Wick series
 - Star Wars series
 
-### Recently watched
-- The Intern
-- Extraction
-- Shutter Island
-
 ### Watchlist
 - Back to the Future
 - Oceans
