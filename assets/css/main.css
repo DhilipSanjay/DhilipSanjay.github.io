@@ -74,13 +74,13 @@ nav
     top: 3px;
     left: 0;
     min-width: 100vw;
-    min-height: 65px;
+    min-height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    box-shadow: 0 0 20px 1px rgb(230, 230, 230);
+    box-shadow: 0 0 15px var(--greycolor);
     z-index: 50;
 }
 

@@ -2,13 +2,14 @@
 
 .project-wrapper{
     margin-bottom: 20px;
+    padding: 0 20px;
     padding-bottom: 30%;
 }
 
 .project-title{
     text-align: center;
     position: relative;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     padding: 4px;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -37,7 +38,7 @@
 .tech-stack{
     font-weight: 800;
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .project-image-wrapper{
@@ -45,6 +46,8 @@
     position: relative;
     padding-bottom: 55%;
     background-color: black;
+    box-shadow:0 0 5px var(--greycolor);
+    overflow: hidden;
 }
 
 .project-image{
@@ -54,7 +57,7 @@
     object-fit: cover;
     object-position: top;
     border-radius: 15px;
-    border: 0.5px solid black;
+    opacity: 0.95;
     cursor: pointer;
     transition: all 250ms ease-in-out;
 }
@@ -67,7 +70,7 @@
     position: relative;
     padding: 1.25rem;
     margin: -2rem auto;
-    max-width: 85%;
+    max-width: 90%;
     border-radius: 10px;
     box-shadow:0 0 20px var(--greycolor);
     background-color: white;
@@ -110,7 +113,7 @@
 }
 
 .link-btn:hover{
-    box-shadow:5px 5px 10px var(--greycolor);
+    box-shadow:5px 5px 15px var(--greycolor);
     background-color: none;
 }
 
