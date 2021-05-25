@@ -61,7 +61,7 @@ Most of these quotes are from the [MOVIES](/movies), [BOOKS](/books) or [SERIES]
 
 > Never make the same mistakes.
 
-> Never give up control. Life life on your own terms.
+> Never give up control. Live life on your own terms.
 
 > Every life comes with a death sentence.
 
