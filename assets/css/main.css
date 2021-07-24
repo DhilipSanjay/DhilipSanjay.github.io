@@ -66,6 +66,10 @@ body{
     overflow-x: hidden;
 }
 
+hr{
+  margin: 1em 0;
+  color: var(--greycolor);
+}
 
 /*navbar*/
 nav
@@ -74,6 +78,7 @@ nav
     top: 3px;
     left: 0;
     min-width: 100vw;
+    width: 100%;
     min-height: 60px;
     display: flex;
     flex-direction: row;
@@ -218,6 +223,7 @@ nav
 {
     text-decoration: none;
     color: inherit;
+    color: var(--color2);
 }
 
 .main-container a:hover,
@@ -841,6 +847,7 @@ blockquote > :last-child { margin-bottom: 0; }
 .highlight {
   background-color: #f8f8f8;
   padding: 5px;
+  margin: 5px auto 1em;
 }
 .highlight pre
 {
