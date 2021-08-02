@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Protect Your Private Email Addresses"
-date:   2021-07-25 03:00:00 +0530 
+date:   2021-07-25 03:00:00 +0000 
 categories: privacy email osint git github bitbucket 
 ---
 
@@ -42,7 +42,13 @@ Even though the Web interface of Github doesn't show the private email address, 
 
 - To get all the emails from **git log**, you can use this one-liner (in Linux): 
 
-{% gist 8702fbca118abe560e03107c67833861 %}
+```bash
+# STEPS:
+  # 1. Clone the github repository
+  # 2. cd into the cloned repository
+  # 3. Run the one-liner:
+git log | grep Author | cut -d ":" -f2 | sort -u | awk '{print $NF}' | sed -r 's/<// ; s/>//'
+```
 
 ---
 

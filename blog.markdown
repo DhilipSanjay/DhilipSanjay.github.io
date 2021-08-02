@@ -34,16 +34,19 @@ Check out my articles and write-ups:
   </a>
 </div>
 
+<hr>
+
+<div class="header">
+<h2>Recent posts</h2>
+</div>
+
 <div class="recent posts">
 {% for post in site.posts %}
   <div class = "post">
     <a href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
-    <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
     </a>
-    <!-- <div>
-      {{ post.content | truncatehtml | truncatewords: 40 }}
-    </div> -->
+    <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
   </div>
   {% endfor %}
 
