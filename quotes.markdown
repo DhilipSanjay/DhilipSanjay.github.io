@@ -136,3 +136,30 @@ Most of these quotes are from the [MOVIES](/movies), [BOOKS](/books) or [SERIES]
 > It's a funny thing, but people mostly have it backward. They think they live by what they want. But really, what guides them is what they're afraid of. What they don't want.
 
 > Sometimes you have to take multiple steps backwards to go forward in life.
+> Learning does not make one learned: there are those who have knowledge and those who have understanding. The first requires memory and the second philosophy.
+
+> This is a world that doesn't play by your rules!
+
+> When the WHY gets stronger, then the HOW gets easier.
+
+> Did you know that it’s actually possible for you to say, “I don’t know enough about this to have an opinion”.
+
+> If you can't sleep at night, then go and read a bunch of RFCs and that's going to put you to sleep!
+
+> Do you know that the greatest need in life is to be needed? And unless a person feels that he or she is needed, his or her life remaining meaningless, desert-like.
+
+> People will tell stories about you at your funeral. What chapter are you writing today?
+
+> Hardwork alone cannot take you places. That hardwork has to be seen by people and you have to put extra effort into making it seen or making it feel heard - _Raunaq Mangottil_
+
+> So you need to know things, even when you don't need to know them. You need to know them not because you need to know them, but because you need to know whether or not you need to know. And if you don't need to know you still need to know so that you know that there was no need to know.
+
+> 'cause something must be wrong if everything is right.
+
+> If you don't control your money, it'll quickly become a curse. It starts giving you negative impact rather than positive. It's true that money can turn into poison. - _Harshad Mehta_
+
+> At some point in everyone's life, there will be a moment when you feel there isn't a single place on earth where you actually belong.
+
+> It is vitally important for us to keep engaging with the world, with people whose lives are different from our own. Travel opens minds and hearts, expands our thinking, and breeds tolerance - all things that are fundamentally good for societies.
+
+> Two things to remember in life. Take care of your thoughts when you are alone, and take care of your words when you are with people.

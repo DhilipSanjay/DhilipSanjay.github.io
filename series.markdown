@@ -10,11 +10,13 @@ These are some series of my interests:
 - Stranger Things
 - Friends
 - Rick and Morty
+- Sex Education
 - Sherlock
 - Silicon Valley
 - Mr. Robot
 
 ### Watchlist
+- Person of Interest
 - How I Met Your Mother
 - The Big Bang Theory
 - Game of Thrones

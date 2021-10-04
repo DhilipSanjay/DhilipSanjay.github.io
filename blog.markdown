@@ -20,6 +20,12 @@ I got this inspiration from [Julia Evans](https://twitter.com/b0rk){:target="_bl
 
 Check out my articles and write-ups:
 <div class="box fade-in categories">
+  <a target="_blank" href="https://dhilipsanjay.gitbook.io/home/">
+    <div class="category-box">
+        <img src="/assets/img/gitbook.png"  alt="gitbook-logo">
+        Gitbook - Blog
+    </div>
+  </a>
   <a target="_blank" href="https://dhilipsanjay.gitbook.io/ctfs/">
     <div class="category-box">
         <img src="/assets/img/ctfs.png"  alt="ctfs-logo">
@@ -30,6 +36,12 @@ Check out my articles and write-ups:
     <div class="category-box">
         <img src="/assets/img/medium.png"  alt="medium-logo">
         Medium
+    </div>
+  </a>
+  <a target="_blank" href="https://auth.geeksforgeeks.org/user/dhilipsanjay1/articles">
+    <div class="category-box">
+        <img src="/assets/img/gfg.jpg"  alt="gfg-logo">
+        GeeksforGeeks
     </div>
   </a>
 </div>

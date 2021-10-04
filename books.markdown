@@ -12,9 +12,11 @@ I usually don't read a lot of books, infact I haven't read any books during my s
 These are some the books which I'm currently reading, planning to read and have read:
 
 ### Currently Reading
-- The Web Application Hacker's Handbook: Discovering and Exploiting Security Flaws - Dafydd Stuttard and Marcus Pinto
+- The Psychology of Money: Timeless lessons on wealth, greed, and happiness - Morgan Housel
+- Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones - James Clear
 
 ### Planning to Read
+- The Web Application Hacker's Handbook: Discovering and Exploiting Security Flaws - Dafydd Stuttard and Marcus Pinto
 - Real-World Bug Hunting: A Field Guide to Web Hacking - Peter Yaworski
 - Black Hat Python: Python Programming for Hackers and Pentesters - Justin Seitz
 - Introduction to algorithms - Thomas Cormen
@@ -24,6 +26,7 @@ These are some the books which I'm currently reading, planning to read and have 
 - Not a penny more, not a penny less - Jeffery Archer
 
 ### Completed Books
+- Ikigai: The Japanese Secret to a Long and Happy Life - Francesc Miralles and Hector Garcia
 - The Leader who had no Title - Robin Sharma
 - The Lost Symbol - Dan Brown
 - The Murder of Roger Ackroyd - Agatha Christe
