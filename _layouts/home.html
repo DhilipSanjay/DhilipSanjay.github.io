@@ -1,27 +1,355 @@
-{% include header.html%}
-<link rel="stylesheet" href="/assets/css/intro.css">
+{% include header.html %}
 <body>
-    {% include navbar.html%}
+    {% include navbar.html %}
 
-    <div class="intro-wrap">
-        <div class ="blur">
-            Dhilip Sanjay
+    <!-- Hero -->
+    <section id="hero" class="hero-section">
+        <div class="hero-text-center">
+<p class="hero-greeting">Hey, I'm</p>
+            <h1>Dhilip Sanjay</h1>
+            <p class="subtitle-text">Full-Stack Software Engineer &amp; AWS Certified Developer Associate building scalable, secure, cloud-native systems.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">About Me</a>
+                <a href="https://drive.google.com/file/d/168Na6_wigbS5idpv7W-Y2a-P4okgLUbI/view" target="_blank" class="btn btn-secondary">Download CV</a>
+            </div>
         </div>
-        <div class= "intro-start">
-            <img class="profile-pic" src="/assets/img/current_dp.jpeg" alt="Main profile image">
-            <div class="intro-content">
-            <h1>
-                Hi, I'm DS ⚔️
-            </h1>
-            <h2 class="typing"></h2>
-            <br>
-            <a href="/about/"><button class="btn dark-btn">About Me</button></a>
-            <a href="https://drive.google.com/file/d/12R-_F3ZghbO-EUGHcQY2Mlwq6L_Nr69D/view?usp=sharing" target="-blank"><button class="btn light-btn">Download CV</button></a>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="section-container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-carousel">
+                    <div class="carousel-glow">
+                        <div class="carousel-track">
+                            <img class="carousel-img active" src="/assets/img/profile.jpg" alt="Dhilip Sanjay">
+                            <img class="carousel-img" src="/assets/img/profile2.jpg" alt="Dhilip Sanjay">
+                        </div>
+                    </div>
+                    <div class="carousel-dots">
+                        <span class="carousel-dot active"></span>
+                        <span class="carousel-dot"></span>
+                    </div>
+                </div>
+                <div class="about-content fade-in">
+                    <p class="about-bio">Full-Stack Software Engineer &amp; AWS Certified Developer Associate with over 4 years of experience in designing and building scalable, secure, and cloud-native distributed systems. Proven track record of delivering agile-driven, innovative solutions &amp; optimizing application performance.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Years of Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Projects Built</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <div class="section-container">
+            <h2>Experience</h2>
+            <ul class="experience-list">
+                <li class="experience-item fade-in">
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <span class="exp-company">Amazon</span>
+                            <span class="exp-dates-badge">June 2025 &ndash; Present</span>
+                        </div>
+                        <div class="exp-role-row">
+                            <span class="exp-role">Software Engineer II</span>
+                            <span class="exp-location">Bengaluru</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Built the Law Enforcement Request Data Retention &amp; Query system for Amazon Leo Satellite Internet by collaborating with Network and Commerce teams.</li>
+                            <li>Worked on Core Backend Services of Amazon Devices, handling 100K+ transactions per second, with focus on region migration, scalability and expansion.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="experience-item fade-in">
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <span class="exp-company">JP Morgan Chase &amp; Co.</span>
+                            <span class="exp-dates-badge">Jan 2025 &ndash; June 2025</span>
+                        </div>
+                        <div class="exp-role-row">
+                            <span class="exp-role">Software Engineer II</span>
+                            <span class="exp-location">Bangalore</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Developed and deployed containerized distributed micro-services on Kubernetes. Mentored junior developers.</li>
+                            <li>Collaborated with cross-functional teams and UX designers to translate customer needs into cohesive solutions.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="experience-item fade-in">
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <span class="exp-company">JP Morgan Chase &amp; Co.</span>
+                            <span class="exp-dates-badge">July 2022 &ndash; Dec 2024</span>
+                        </div>
+                        <div class="exp-role-row">
+                            <span class="exp-role">Software Engineer I</span>
+                            <span class="exp-location">Bangalore</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Developed automated commentary with NLG and an AWS migration utility, reducing manual overhead.</li>
+                            <li>Led vulnerability remediation initiative, mitigating 95% of known vulnerabilities within the SLA.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="experience-item fade-in">
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <span class="exp-company">JP Morgan Chase &amp; Co.</span>
+                            <span class="exp-dates-badge">Jan 2022 &ndash; June 2022</span>
+                        </div>
+                        <div class="exp-role-row">
+                            <span class="exp-role">Software Engineer Intern</span>
+                            <span class="exp-location">Bangalore</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Integrated Prometheus for real-time performance monitoring, improving incident visibility and response times.</li>
+                            <li>Built Grafana &amp; Splunk dashboards that ensured 99% uptime and decreased latency &amp; troubleshooting time.</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </div>
-    {% include footer.html%}
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="section-container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-group fade-in">
+                    <div class="skill-group-label">Languages</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="devicon-java-plain colored"></i>Java</span>
+                        <span class="skill-tag"><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+                        <span class="skill-tag"><i class="devicon-python-plain colored"></i>Python</span>
+                        <span class="skill-tag"><i class="devicon-c-plain colored"></i>C</span>
+                        <span class="skill-tag"><i class="devicon-cplusplus-plain colored"></i>C++</span>
+                    </div>
+                </div>
+                <div class="skill-group fade-in">
+                    <div class="skill-group-label">Web Frameworks</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="devicon-spring-plain colored"></i>Spring Boot</span>
+                        <span class="skill-tag"><i class="devicon-react-original colored"></i>React JS</span>
+                        <span class="skill-tag"><i class="devicon-nodejs-plain colored"></i>Node JS</span>
+                        <span class="skill-tag"><i class="devicon-django-plain colored"></i>Django</span>
+                        <span class="skill-tag"><i class="devicon-flask-original colored"></i>Flask</span>
+                        <span class="skill-tag"><i class="devicon-html5-plain colored"></i>HTML</span>
+                        <span class="skill-tag"><i class="devicon-css3-plain colored"></i>CSS</span>
+                    </div>
+                </div>
+                <div class="skill-group fade-in">
+                    <div class="skill-group-label">Databases</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="devicon-mysql-plain colored"></i>MySQL</span>
+                        <span class="skill-tag"><i class="devicon-oracle-original colored"></i>Oracle</span>
+                        <span class="skill-tag"><i class="devicon-postgresql-plain colored"></i>PostgreSQL</span>
+                        <span class="skill-tag"><i class="devicon-firebase-plain colored"></i>Firebase</span>
+                        <span class="skill-tag"><i class="devicon-mongodb-plain colored"></i>MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-group fade-in">
+                    <div class="skill-group-label">DevOps &amp; Cloud</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="devicon-amazonwebservices-plain colored"></i>AWS</span>
+                        <span class="skill-tag"><i class="devicon-docker-plain colored"></i>Docker</span>
+                        <span class="skill-tag"><i class="devicon-kubernetes-plain colored"></i>Kubernetes</span>
+                        <span class="skill-tag"><i class="devicon-terraform-plain colored"></i>Terraform</span>
+                        <span class="skill-tag"><i class="devicon-jenkins-plain colored"></i>Jenkins</span>
+                        <span class="skill-tag"><i class="devicon-git-plain colored"></i>Git</span>
+                    </div>
+                </div>
+                <div class="skill-group fade-in">
+                    <div class="skill-group-label">Tools</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="devicon-grafana-plain colored"></i>Grafana</span>
+                        <span class="skill-tag">Splunk</span>
+                        <span class="skill-tag"><i class="devicon-prometheus-original colored"></i>Prometheus</span>
+                        <span class="skill-tag">Burp Suite</span>
+                        <span class="skill-tag">Nmap</span>
+                        <span class="skill-tag">Metasploit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="section-container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-wrapper fade-in">
+                    <div class="project-image-wrapper project-placeholder" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);"></div>
+                    <div class="project-container">
+                        <div class="project-title">Athena</div>
+                        <p class="project-details">AI-powered platform that generates personalized educational courses on demand. Input a topic and learning preferences — a multi-agent system (AutoGen) handles planning, research, lesson writing, and quiz generation end-to-end.</p>
+                        <div class="tech-stack-wrapper">
+                            <span class="tech-stack">Tech Stack</span>
+                            Next.js, TypeScript, React, Azure Functions, Azure PostgreSQL, Microsoft AutoGen, OpenAI
+                        </div>
+                        <div class="project-links">
+                            <a class="link-btn" href="https://github.com/DhilipSanjay/Athena" target="_blank">
+                                <img class="link-btn-icon" src="/assets/svg/github.svg" alt="Github">
+                                <div class="link-btn-text">View Source</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-wrapper fade-in">
+                    <div class="project-image-wrapper">
+                        <img class="project-image" src="/assets/img/projects/sensitivity-detecto.png" alt="Detection of Sensitive Data Exposure in Images">
+                    </div>
+                    <div class="project-container">
+                        <div class="project-title">Detection of Sensitive Data Exposure in Images</div>
+                        <p class="project-details">Machine Learning model deployed as a web application to detect sensitive data in images, used by individuals and companies for automated privacy checks.</p>
+                        <div class="tech-stack-wrapper">
+                            <span class="tech-stack">Tech Stack</span>
+                            Python, TensorFlow, Keras, Tesseract OCR, Firebase
+                        </div>
+                        <div class="project-links">
+                            <a class="link-btn" href="https://sensitivity-detecto.web.app/" target="_blank">
+                                <img class="link-btn-icon" src="/assets/svg/link.svg" alt="Link">
+                                <div class="link-btn-text">Visit Website</div>
+                            </a>
+                            <a class="link-btn" href="https://github.com/DhilipSanjay/Detection-of-Sensitive-Data-Exposure-in-Images" target="_blank">
+                                <img class="link-btn-icon" src="/assets/svg/github.svg" alt="Github">
+                                <div class="link-btn-text">View Source</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-wrapper fade-in">
+                    <div class="project-image-wrapper">
+                        <img class="project-image" src="/assets/img/projects/quotables.png" alt="Quotables">
+                    </div>
+                    <div class="project-container">
+                        <div class="project-title">Quotables</div>
+                        <p class="project-details">A full-stack web application to collect, save, edit, and categorize favourite quotes, built with a React frontend and a PHP/MySQL backend.</p>
+                        <div class="tech-stack-wrapper">
+                            <span class="tech-stack">Tech Stack</span>
+                            React JS, Tailwind CSS, PHP, MySQL
+                        </div>
+                        <div class="project-links">
+                            <a class="link-btn" href="https://github.com/DhilipSanjay/Quotables" target="_blank">
+                                <img class="link-btn-icon" src="/assets/svg/github.svg" alt="Github">
+                                <div class="link-btn-text">View Source</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-wrapper fade-in">
+                    <div class="project-image-wrapper">
+                        <img class="project-image" src="/assets/img/projects/exordium.png" alt="Exordium">
+                    </div>
+                    <div class="project-container">
+                        <div class="project-title">Exordium</div>
+                        <p class="project-details">Mobile application for GRD Memorial Library showcasing resources and opportunities via a conversational Dialogflow chatbot, available on the Google Play Store.</p>
+                        <div class="tech-stack-wrapper">
+                            <span class="tech-stack">Tech Stack</span>
+                            Flutter, Dart, Firestore, Google Dialogflow
+                        </div>
+                        <div class="project-links">
+                            <a class="link-btn" href="https://play.google.com/store/apps/details?id=com.exordium.library_demo" target="_blank">
+                                <img class="link-btn-icon" src="/assets/svg/link.svg" alt="Link">
+                                <div class="link-btn-text">Install Exordium</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-wrapper fade-in">
+                    <div class="project-image-wrapper">
+                        <img class="project-image" src="/assets/img/projects/chatsystem.png" alt="Multi-Client Chat System">
+                    </div>
+                    <div class="project-container">
+                        <div class="project-title">Multi-Client Chat System</div>
+                        <p class="project-details">A concurrent chat server built in C using threading, TCP sockets, linked lists, and mutex locks to handle multiple simultaneous clients.</p>
+                        <div class="tech-stack-wrapper">
+                            <span class="tech-stack">Tech Stack</span>
+                            C Language, TCP Sockets
+                        </div>
+                        <div class="project-links">
+                            <a class="link-btn" href="https://github.com/DhilipSanjay/TCP-CHAT" target="_blank">
+                                <img class="link-btn-icon" src="/assets/svg/github.svg" alt="Github">
+                                <div class="link-btn-text">View Source</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-wrapper fade-in">
+                    <div class="project-image-wrapper">
+                        <img class="project-image" src="/assets/img/projects/elucida.png" alt="Elucida">
+                    </div>
+                    <div class="project-container">
+                        <div class="project-title">Elucida</div>
+                        <p class="project-details">Medical emergency Android app that surfaces a prioritized list of nearby hospitals, sends SMS to emergency contacts, and uses NFC tags to store blood group and contact details.</p>
+                        <div class="tech-stack-wrapper">
+                            <span class="tech-stack">Tech Stack</span>
+                            Android Studio, Java, Google Maps API
+                        </div>
+                        <div class="project-links">
+                            <a class="link-btn" href="https://github.com/DhilipSanjay/Elucida" target="_blank">
+                                <img class="link-btn-icon" src="/assets/svg/github.svg" alt="Github">
+                                <div class="link-btn-text">View Source</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs -->
+    <section id="blogs">
+        <div class="section-container">
+            <h2>Blogs</h2>
+            <ul class="writing-list">
+                <li class="writing-item fade-in">
+                    <div>
+                        <a href="https://dhilipsanjay.gitbook.io/home/" target="_blank">Gitbook &mdash; Notes &amp; Write-ups</a>
+                        <span class="writing-desc"> &nbsp;&middot;&nbsp; Security notes and general technical writing</span>
+                    </div>
+                </li>
+                <li class="writing-item fade-in">
+                    <div>
+                        <a href="https://dhilipsanjay.gitbook.io/ctfs/" target="_blank">CTF Write-ups</a>
+                        <span class="writing-desc"> &nbsp;&middot;&nbsp; Capture The Flag challenge solutions</span>
+                    </div>
+                </li>
+                <li class="writing-item fade-in">
+                    <div>
+                        <a href="https://dhilipsanjay.medium.com/" target="_blank">Medium</a>
+                        <span class="writing-desc"> &nbsp;&middot;&nbsp; Articles on security and development</span>
+                    </div>
+                </li>
+                <li class="writing-item fade-in">
+                    <div>
+                        <a href="https://auth.geeksforgeeks.org/user/dhilipsanjay1/articles" target="_blank">GeeksforGeeks</a>
+                        <span class="writing-desc"> &nbsp;&middot;&nbsp; Technical tutorials and guides</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    {% include footer.html %}
 </body>
-<script src="/assets/js/text_typing.js"></script>
 </html>
-
