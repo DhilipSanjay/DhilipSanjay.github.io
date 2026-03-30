@@ -1,7 +1,0 @@
-@import "main.css";
-
-.main-container ul li, ol li
-{
-    text-indent: -1.5em;
-    margin-left: 1.5em;
-}
